@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-mongo-encryption-demo",
+  "version": "1.0.0",
+  "description": "Demo for set up of client side encryption for MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "mocha test/spec/**/*.spec.js --check-leaks  --timeout 50000"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "encryption"
+  ],
+  "author": "Stefan Pfaffel",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "mongodb-client-encryption": "^1.1.0",
+    "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3",
+    "nodemon": "^2.0.4"
+  }
+}
