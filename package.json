@@ -17,7 +17,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongodb": "^3.6.9",
-    "mongodb-client-encryption": "^1.2.5",
+    "mongodb-client-encryption": "^1.2.6",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
