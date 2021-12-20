@@ -15,7 +15,7 @@
   "author": "Stefan Pfaffel",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "mongodb": "^3.6.10",
     "mongodb-client-encryption": "^1.2.6",
     "uuid": "^8.3.2"
